@@ -1,0 +1,17 @@
+fn loop;
+
+cp j i;
+var j - 7;
+
+println "$i^ - 7 = $j^";
+var i - 7;
+if i > 0
+sleep 0.2;
+call loop;
+end
+nf;
+
+fn main;
+var i = 1007;
+call loop;
+nf;
